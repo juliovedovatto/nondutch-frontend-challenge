@@ -12,7 +12,9 @@
  - VueJS;
  - Polymer (2).
  
- The application will be about `Star Wars` and should do the following:
+ The application can be
+ 
+ 1. About `Star Wars` and should do the following:
  
  - [ ] Consume [SWAPI] (Star Wars API);
  - [ ] List planets in the movies (`name` and `population`);
@@ -20,8 +22,19 @@
  - [ ] List the people in the movies with basic data (`name` and `height`);
  - [ ] Open the details of a person (`name`, `height`, `gender`, `birth_year`, `hair_color`, `skin_color`, `homeworld`, and name of the `films`);
     - [ ] Link the homeworld to "Planet detail" screen.
+    
+ 2. A Cryptocurrency Dashboard & Calculator and should do the following:
+ 
+ - [ ] Consume [CoinmarketCap](https://coinmarketcap.com/api/);
+ - [ ] Use the main layout on the [design folder](https://github.com/NonDutch/frontend-challenge/tree/master/design);
+ - [ ] List the top 12 currencies;
+ - [ ] Show the current price in Euro;
+ - [ ] Have a rotating component showing the variation by `hour`, `day` and `week`;
+ - [ ] Create a calculator with a base value in each Euro or Cryptocurrencies that will be converted to 2 other bases;
+ - [ ] You can't select the the same currencies in the calculator.
 
- To provide the code you must fork this repository (**which must remain as private**), do your changes and send an email back with the link to it stating that you finished the test.
+
+ To provide the code you must **fork** this repository (**which must remain as private**), do your changes and send an email back with the link to it stating that you finished the test.
  
  ## I don't have time to do a test
  
