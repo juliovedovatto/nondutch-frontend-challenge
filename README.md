@@ -20,4 +20,6 @@
  - [ ] Open the details of a person (`name`, `height`, `gender`, `birth_year`, `hair_color`, `skin_color`, `homeworld`, and name of the `films`);
     - [ ] Link the homeworld to "Planet detail" screen.
 
+ To provide the code you must fork this repository (**which must remain as private**), do your changes and send an email back with the link to it stating that you finished the test.
+
  [SWAPI]: https://swapi.co/
