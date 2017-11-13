@@ -21,5 +21,11 @@
     - [ ] Link the homeworld to "Planet detail" screen.
 
  To provide the code you must fork this repository (**which must remain as private**), do your changes and send an email back with the link to it stating that you finished the test.
-
+ 
+ ## I don't have time to do a test
+ 
+ It's understandable if you don't have time to do the test, it's purpose is to know your level of knowledge in a specific library/framework.
+ 
+ If you choose to not submit the test you can simply email back the person that sent you this repository stating that you won't do the test and we will review your knowledge based on your public online profile.
+ 
  [SWAPI]: https://swapi.co/
