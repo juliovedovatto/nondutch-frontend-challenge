@@ -12,7 +12,7 @@
  - VueJS;
  - Polymer (2).
  
- The application can be
+ The application can be:
  
  1. A `Star Wars` app and should do the following:
  
