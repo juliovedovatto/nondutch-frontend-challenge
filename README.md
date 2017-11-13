@@ -14,7 +14,7 @@
  
  The application can be
  
- 1. About `Star Wars` and should do the following:
+ 1. A `Star Wars` app and should do the following:
  
  - [ ] Consume [SWAPI] (Star Wars API);
  - [ ] List planets in the movies (`name` and `population`);
@@ -23,7 +23,7 @@
  - [ ] Open the details of a person (`name`, `height`, `gender`, `birth_year`, `hair_color`, `skin_color`, `homeworld`, and name of the `films`);
     - [ ] Link the homeworld to "Planet detail" screen.
     
- 2. A Cryptocurrency Dashboard & Calculator and should do the following:
+ 2. A `Cryptocurrency Dashboard & Calculator` and should do the following:
  
  - [ ] Consume [CoinmarketCap](https://coinmarketcap.com/api/);
  - [ ] Use the main layout on the [design folder](https://github.com/NonDutch/frontend-challenge/tree/master/design);
