@@ -9,7 +9,8 @@
  - React;
  - React Native;
  - Angular (5);
- - VueJS.
+ - VueJS;
+ - Polymer (2).
  
  The application will be about `Star Wars` and should do the following:
  
