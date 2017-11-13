@@ -27,6 +27,7 @@
  
  - [ ] Consume [CoinmarketCap](https://coinmarketcap.com/api/);
  - [ ] Use the main layout on the [design folder](https://github.com/NonDutch/frontend-challenge/tree/master/design);
+   - [ ] Use [Montserrat](https://fonts.google.com/specimen/Montserrat) as main webfont;
  - [ ] List the top 12 currencies;
  - [ ] Show the current price in Euro;
  - [ ] Have a rotating component showing the variation by `hour`, `day` and `week`;
