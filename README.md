@@ -31,7 +31,7 @@
  - [ ] List the top 12 currencies;
  - [ ] Show the current price in Euro;
  - [ ] Have a rotating component showing the variation by `hour`, `day` and `week`;
- - [ ] Create a calculator with a base value in each Euro or Cryptocurrencies that will be converted to 2 other bases;
+ - [ ] Create a calculator with a base value in each Euro or Cryptocurrencies that will be converted to 2 other values;
  - [ ] You can't select the the same currencies in the calculator.
 
 
