@@ -25,16 +25,17 @@
     
  2. A `Cryptocurrency Dashboard & Calculator` and should do the following:
  
- - [ ] Consume [CoinmarketCap](https://coinmarketcap.com/api/);
- - [ ] Use the main layout on the [design folder](https://github.com/NonDutch/frontend-challenge/tree/master/design);
+ - [ ] Consume [CoinmarketCap](https://coinmarketcap.com/api/) API;
+ - [ ] Use the main layout in the [design folder](https://github.com/NonDutch/frontend-challenge/tree/master/design);
    - [ ] Use [Montserrat](https://fonts.google.com/specimen/Montserrat) as main webfont;
  - [ ] List the top 12 currencies;
  - [ ] Show the current price in Euro;
- - [ ] Have a rotating component showing the variation by `hour`, `day` and `week`;
- - [ ] Create a calculator with a base value in each Euro or Cryptocurrencies that will be converted to 2 other values;
- - [ ] You can't select the the same currencies in the calculator.
+ - [ ] Show the variation of the price by day;
+ - [ ] Create a calculator with a base value in Euro or Cryptocurrencies that will be converted to 2 other values;
+ - [ ] You can't select the same currencies in the calculator.
 
-
+ **You must choose only one project for the test.**
+ 
  To provide the code you must **fork** this repository (**which must remain as private**), do your changes and send an email back with the link to it stating that you finished the test.
  
  ## I don't have time to do a test
