@@ -4,7 +4,7 @@
 
 > We hate doing tests but they are useful to filter out the best candidates.
 
- :warning: **DO NOT OPEN A PULL REQUEST!** Delivering the test in a way that's not specified here will lead to it being ignored.
+ :warning: **DO NOT OPEN A PULL REQUEST!** Delivering the test in a way that's not specified will lead to it being ignored.
 
 
  You need to build an application using any of the following technologies:
