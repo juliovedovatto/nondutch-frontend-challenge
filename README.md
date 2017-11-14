@@ -38,6 +38,8 @@
  
  To provide the code you must **fork** this repository (**which must remain as private**), do your changes and send an email back with the link to it stating that you finished the test.
  
+ **DO NOT OPEN A PULL REQUEST!** Delivering the test in a way that's not specified here will lead to it being ignored.
+ 
  ## I don't have time to do a test
  
  It's understandable if you don't have time to do the test, it's purpose is to know your level of knowledge in a specific library/framework.
