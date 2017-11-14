@@ -17,7 +17,7 @@
  
  You will need to choose one of the items below (Star Wars **or** Cryptocurrency):
  
- 1. A `Star Wars` app (no layout, design yourself!) and should do the following:
+ 1. A `Star Wars` app (no layout, be creative :D) and should do the following:
  
  - [ ] Consume [SWAPI] (Star Wars API);
  - [ ] List planets in the movies (`name` and `population`);
