@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+ <html>
+ 	<head>
+ 		<meta charset="utf-8">
+ 		<title></title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href="css/choices.min.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+ 	</head>
+ 	<body>
+    <div id="cryptocurrency-deashboard-calculator" class="wrapper">
+      <main>
+        <section>
+          <h1 class="title">Cryptoboard</h1>
+          <div class="currency-quote-list">
+            <li class="quote">
+              <h4 class="currency-title"><span>Bitcoin</span> BTC</h4>
+              <h5 class="currency-price">€5.711</h5>
+              <h6 class="currency-status up"><span>1.65%</span> in the last day</h6>
+            </li>
+            <li class="quote">
+              <h4 class="currency-title"><span>Bitcoin</span> BTC</h4>
+              <h5 class="currency-price">€5.711</h5>
+              <h6 class="currency-status down"><span>-1.65%</span> in the last day</h6>
+            </li>
+            <li class="quote">
+              <h4 class="currency-title"><span>Bitcoin</span> BTC</h4>
+              <h5 class="currency-price">€5.711</h5>
+              <h6 class="currency-status up"><span>1.65%</span> in the last day</h6>
+            </li>
+            <li class="quote">
+              <h4 class="currency-title"><span>Bitcoin</span> BTC</h4>
+              <h5 class="currency-price">€5.711</h5>
+              <h6 class="currency-status up"><span>1.65%</span> in the last day</h6>
+            </li>
+            <li class="quote">
+              <h4 class="currency-title"><span>Bitcoin</span> BTC</h4>
+              <h5 class="currency-price">€5.711</h5>
+              <h6 class="currency-status up"><span>1.65%</span> in the last day</h6>
+            </li>
+            <li class="quote">
+              <h4 class="currency-title"><span>Bitcoin</span> BTC</h4>
+              <h5 class="currency-price">€5.711</h5>
+              <h6 class="currency-status up"><span>1.65%</span> in the last day</h6>
+            </li>
+            <li class="quote">
+              <h4 class="currency-title"><span>Bitcoin</span> BTC</h4>
+              <h5 class="currency-price">€5.711</h5>
+              <h6 class="currency-status up"><span>1.65%</span> in the last day</h6>
+            </li>
+            <li class="quote">
+              <h4 class="currency-title"><span>Bitcoin</span> BTC</h4>
+              <h5 class="currency-price">€5.711</h5>
+              <h6 class="currency-status up"><span>1.65%</span> in the last day</h6>
+            </li>
+            <li class="quote empty-block"></li>
+          </div>
+        </section>
+        <aside>
+          <h2 class="title">Cryptocalculator</h2>
+          <form>
+            <fieldset>
+              <ol>
+                <li>
+                  <select>
+                    <option>Euro</option>
+                    <option>BTC</option>
+                    <option>DASH</option>
+                  </select>
+                  <input type="text" />
+                </li>
+                <li>
+                  <select>
+                    <option>BTC</option>
+                  </select>
+                  <input type="text" />
+                </li>
+                <li>
+                  <select>
+                    <option>DASH</option>
+                  </select>
+                  <input type="text" />
+                </li>
+              </ol>
+            </fieldset>
+          </form>
+        </aside>
+      </main>
+    </div>
+    <script src="js/choices.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', function (e) {
+        new Choices('select', {
+          searchEnabled: false,
+          itemSelectText: ''
+        });
+
+        Array.from(document.querySelectorAll('.wrapper main aside form input')).forEach(function (item) {
+          item.addEventListener('focus', function (e) {
+            this.parentNode.classList.add('focus');
+          })
+          item.addEventListener('blur', function (e) {
+            this.parentNode.classList.remove('focus');
+          })
+        });
+      }, false);
+    </script>
+ 	</body>
+ </html>

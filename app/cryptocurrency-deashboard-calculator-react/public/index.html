@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ <html>
+ 	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#2a2a2a">
+
+ 		<title>Cryptocalculator</title>
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+    <link href="%PUBLIC_URL%/assets/css/choices.min.css" rel="stylesheet" type="text/css">
+    <link href="%PUBLIC_URL%/assets/css/style.css" rel="stylesheet" type="text/css">
+
+ 	</head>
+ 	<body>
+    <div id="cryptocurrency-deashboard-calculator" class="wrapper"></div>
+
+    <script src="%PUBLIC_URL%/assets/js/choices.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', function (e) {
+        new Choices('select', {
+          searchEnabled: false,
+          itemSelectText: ''
+        });
+
+        Array.from(document.querySelectorAll('.wrapper main aside form input')).forEach(function (item) {
+          item.addEventListener('focus', function (e) {
+            this.parentNode.classList.add('focus');
+          })
+          item.addEventListener('blur', function (e) {
+            this.parentNode.classList.remove('focus');
+          })
+        });
+      }, false);
+    </script>
+ 	</body>
+ </html>
