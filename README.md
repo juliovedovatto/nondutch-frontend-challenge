@@ -1,3 +1,7 @@
+## This challenge is no longer valid. I created this repository for the purpose of studying frontend technologies.
+
+---
+
 # FrontEnd Challenge
 
 #### Congratulations if you received the link of this repository to begin the first part of your interview at NonDutch!
