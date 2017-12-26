@@ -11,7 +11,6 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
     <link href="%PUBLIC_URL%/assets/css/choices.min.css" rel="stylesheet" type="text/css">
-    <link href="%PUBLIC_URL%/assets/css/style.css" rel="stylesheet" type="text/css">
 
  	</head>
  	<body>
@@ -20,11 +19,6 @@
     <script src="%PUBLIC_URL%/assets/js/choices.min.js"></script>
     <script>
       window.addEventListener('DOMContentLoaded', function (e) {
-        new Choices('select', {
-          searchEnabled: false,
-          itemSelectText: ''
-        });
-
         Array.from(document.querySelectorAll('.wrapper main aside form input')).forEach(function (item) {
           item.addEventListener('focus', function (e) {
             this.parentNode.classList.add('focus');
