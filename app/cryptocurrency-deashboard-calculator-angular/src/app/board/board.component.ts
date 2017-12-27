@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BoardComponent implements OnInit {
 
-  data: array;
+  data: Array<any>;
 
   constructor() { }
 

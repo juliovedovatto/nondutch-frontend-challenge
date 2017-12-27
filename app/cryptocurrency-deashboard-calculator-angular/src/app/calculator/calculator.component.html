@@ -3,28 +3,28 @@
   <form>
     <fieldset>
       <ol>
-        <li>
-          <select>
-            <option *ngFor="let row of currencyList" value="{{row.id}}">{{row.title}}</option>
+        <li id="currency-list-1">
+          <select [ngModel]="selectedCurrency" name="currency" (change)="_calculateCurrency($event.value)">
+            <option *ngFor="let item of currencies" [value]="item">{{item}}</option>
           </select>
-          <input type="text" />
+          <input type="text" (change)="_calculateCurrency($event.value)" />
         </li>
-        <li>
-          <select>
-            <option *ngFor="let item of currencies" value="{{item}}">{{item}}</option>
+        <li id="crypto-currency">
+          <select [ngModel]="selectedCurrencyList.id" name="cryptoCurrency" (change)="_calculateCurrency($event.value)">
+            <option *ngFor="let row of currencyList" [value]="row.id">{{row.title}}</option>
           </select>
-          <input type="text" readonly />
+          <input type="text" readonly value="{{convertedAmount | number:'1.2-10'}}" />
         </li>
-        <li>
-          <select>
+        <li id="currency-list-2">
+          <select [ngModel]="selectedCurrencyConvert" name="convertCurrency" (change)="_calculateCurrency($event.value)">
             <optgroup label="Monetary Currency">
-              <option *ngFor="let item of currencies" value="{{item}}">{{item}}</option>
+              <option *ngFor="let item of currencies" [value]="item">{{item}}</option>
             </optgroup>
             <optgroup label="Crypto Currency">
-              <option *ngFor="let row of currencyList" value="{{row.title}}">{{row.title}}</option>
+              <option *ngFor="let row of currencyList" [value]="row.title">{{row.title}}</option>
             </optgroup>
           </select>
-          <input type="text" readonly />
+          <input type="text" readonly value="{{convertedAmount1 | number:'1.2-10'}}" />
         </li>
       </ol>
     </fieldset>

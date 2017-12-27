@@ -14,7 +14,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   @ViewChild(BoardComponent) board;
   @ViewChild(CalculatorComponent) calculator;
 
-  currencyList: array;
+  currencyList: Array<any>;
 
   constructor() { }
 
