@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+ <html lang="en">
+ 	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#2a2a2a">
+
+    <base href="/">
+
+ 		<title>Cryptocurrency Dashboard & Calculator (Angular)</title>
+ 	</head>
+ 	<body>
+    <app-root></app-root>
+
+    <script src="/assets/js/choices.min.js"></script>
+    <script>
+      window.addEventListener('DOMContentLoaded', function (e) {
+        Array.from(document.querySelectorAll('.wrapper main aside form input')).forEach(function (item) {
+          item.addEventListener('focus', function (e) {
+            this.parentNode.classList.add('focus');
+          })
+          item.addEventListener('blur', function (e) {
+            this.parentNode.classList.remove('focus');
+          })
+        });
+      }, false);
+    </script>
+ 	</body>
+ </html>

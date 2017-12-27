@@ -1,0 +1,10 @@
+<section>
+  <h1 class="title">Cryptoboard</h1>
+  <div class="currency-quote-list">
+    <li class="quote" *ngFor="let item of data">
+      <h4 class="currency-title"><span>{{item.name}}</span> {{item.symbol}}</h4>
+      <h5 class="currency-price">{{item.price_eur | currency:'€'}}</h5>
+      <h6 class="currency-status {{item.percent_change_24h > 0 ? 'up' : 'down'}}"><span>{{item.percent_change_24h}}</span> in the last day</h6>
+    </li>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+<aside>
+  <h2 class="title">Cryptocalculator</h2>
+  <form>
+    <fieldset>
+      <ol>
+        <li>
+          <select>
+            <option *ngFor="let row of currencyList" value="{{row.id}}">{{row.title}}</option>
+          </select>
+          <input type="text" />
+        </li>
+        <li>
+          <select>
+            <option *ngFor="let item of currencies" value="{{item}}">{{item}}</option>
+          </select>
+          <input type="text" readonly />
+        </li>
+        <li>
+          <select>
+            <optgroup label="Monetary Currency">
+              <option *ngFor="let item of currencies" value="{{item}}">{{item}}</option>
+            </optgroup>
+            <optgroup label="Crypto Currency">
+              <option *ngFor="let row of currencyList" value="{{row.title}}">{{row.title}}</option>
+            </optgroup>
+          </select>
+          <input type="text" readonly />
+        </li>
+      </ol>
+    </fieldset>
+  </form>
+</aside>
