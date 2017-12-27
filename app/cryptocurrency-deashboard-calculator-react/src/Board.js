@@ -21,10 +21,7 @@ class Board extends Component {
     data = data.map(item => { item.price_eur = Number(item.price_eur); return item; });
 
     let content = _.sortBy(data, 'price_eur').reverse().map(item => {
-      let name = item.name.split(' ')
       let currencyChangeClass = `currency-status ${item.percent_change_24h > 0 ? 'up' : 'down'}`
-
-      name = ([ <span key="name-{item.id}">{name.shift()}</span>, ' ', name.join(' ') ])
 
       return (
         <li className="quote" key={item.id}>
